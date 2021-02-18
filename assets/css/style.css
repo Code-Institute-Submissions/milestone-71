@@ -1,5 +1,7 @@
+
+
 .ui-menu-color-home {
-    background-color: #e67e22;
+    background-color: #0f1626;
 }
 
 .ui-menu-color-gallery {
@@ -7,16 +9,34 @@
 }
 
 .ui-menu-color-booktickets {
-    background-color: #3498db;
+    background-color: #e9b000;
 }
 
-.ui-menu-color-booknow {
-    background-color: #3498db;
+.ui-menu-color-logo {
+    background-color: #f5f5f5;
 }
+
+#logo {
+    color: #0f1626;
+}
+
+.hero-image {
+    width:100%;
+    height:500px;
+    background: url("../images//HeroMilestone1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
 
 header {
-    margin: 0;
-    padding-top: 0;
+    margin: 0;    
+}
+
+.gap {
+    height: 60px;
 }
 
 .container-fluid {
@@ -39,15 +59,13 @@ header {
     padding: 0;
 }
 
-#book {
-    text-align: center;
-}
+
 
 .navitem {
     height: 60px;
     text-align: center;
     padding: 0;
-    overflow: visible;
+    
 }
 
 .navitem span {
@@ -60,3 +78,4 @@ header {
     text-transform: uppercase;
     color: #ffffff;
 }
+

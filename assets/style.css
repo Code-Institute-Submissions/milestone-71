@@ -1,0 +1,62 @@
+.ui-menu-color-home {
+    background-color: #e67e22;
+}
+
+.ui-menu-color-gallery {
+    background-color: #9b59b6;
+}
+
+.ui-menu-color-booktickets {
+    background-color: #3498db;
+}
+
+.ui-menu-color-booknow {
+    background-color: #3498db;
+}
+
+header {
+    margin: 0;
+    padding-top: 0;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+
+.navcontainer {
+    font-size: 0;
+    position: relative;;
+}
+
+#navbar li {
+    font-size: 14px;
+    padding: 0;
+}
+
+#book {
+    text-align: center;
+}
+
+.navitem {
+    height: 60px;
+    text-align: center;
+    padding: 0;
+    overflow: visible;
+}
+
+.navitem span {
+    display: block;
+    padding-top: 15px;
+}
+
+.navitem a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}

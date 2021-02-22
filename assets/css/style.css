@@ -141,18 +141,46 @@ html, body, footer {
 
 footer {
     width: 100%;
-    background-color: #f5c5f5;
+    background-color: #f5f5f5;
     position: absolute;
-    max-height: 380px;
+    padding-bottom: 0;
 }
 
 .social-links li a i {
     color: #f5f5f5;
-    padding-top: 12px;
+    padding-top: 16px;
     text-align: center;
     width: 50px;
+    height: 52px;
+    
+    
 }
 
 .social-links li {
     float: right;
+    
+}
+
+#copyright {
+    color: #0f1626;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+.reddit {
+    background-color: #FF4500;
+   
+}
+
+.facebook {
+    background-color: #385898;
+}
+
+.instagram {
+    background-color: #d61c7c;
+}
+
+.snapchat {
+    background-color: #e9b000;
+    border-color: #0f1626;   
 }

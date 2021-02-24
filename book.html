@@ -43,7 +43,10 @@
     </header>
 
 <section>
- <form>
+
+    <!--javascript within form was taken from https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onsubmit-->
+
+ <form action="index.html" onsubmit="myFunction()">
     <div class="form-bg">
 
 
@@ -128,8 +131,8 @@
        <div class="row form">
           
           <div class="col-12 submit">
-              <label for="lname" ></label>
-              <input type="submit" class="form-control" >
+              <label for="submit" ></label>
+              <input type="submit" class="form-control" value="PAY NOW" >
           </div>
           
        </div>
@@ -137,6 +140,11 @@
 
     </div>   
 </form>
+<script>
+function myFunction() {
+  alert("Thank you for your Purchase! You should recieve a conformation email shortly!");
+}
+</script>
 </section>
 
 <footer>
@@ -191,4 +199,6 @@
 </footer>
     
 </body>
+
+
 </html>

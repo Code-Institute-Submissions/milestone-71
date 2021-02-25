@@ -54,12 +54,12 @@
 
            <div class="col-lg-6 col-md-6 col-12">
                <label for="fname" >First Name</label>
-               <input type="text" class="form-control" placeholder="First name">
+               <input type="text" class="form-control" id="fname" placeholder="First name">
           </div>
           
           <div class="col-lg-6 col-md-6 col-12">
               <label for="lname" >Surname</label>
-              <input type="text" class="form-control" placeholder="Surname">
+              <input type="text" class="form-control" id="lname" placeholder="Surname">
           </div>
           
        </div>
@@ -68,12 +68,12 @@
 
            <div class="col-lg-6 col-md-6 col-12">
                <label for="email" >E-mail</label>
-               <input type="email" class="form-control" placeholder="E-mail">
+               <input type="email" class="form-control" id="email" placeholder="E-mail">
           </div>
           
           <div class="col-lg-6 col-md-6 col-12">
               <label for="number" >Contact Number</label>
-              <input type="number" class="form-control" placeholder="Contact Number">
+              <input type="number" class="form-control" id="number" placeholder="Contact Number">
           </div>
           
        </div>
@@ -81,8 +81,8 @@
        <div class="row form">
 
            <div class="col-lg-6 col-md-6 col-12">
-               <label for="fname" >Number of Tickets</label>
-               <input list="tickets" class="form-control" placeholder="Number of Tickets">
+               <label for="notickets" >Number of Tickets</label>
+               <input list="tickets" class="form-control" id="notickets" placeholder="Number of Tickets">
                <datalist id="tickets">
                    <option value="1"></option>
                    <option value="2"></option>
@@ -94,8 +94,8 @@
           
 
           <div class="col-lg-6 col-md-6 col-12">
-              <label for="lname" >Date of Birth</label>
-              <input type="date" class="form-control" placeholder="Date of Birth">
+              <label for="dob" >Date of Birth</label>
+              <input type="date" class="form-control" id="dob">
           </div>
           
        </div>
@@ -103,13 +103,13 @@
        <div class="row form">
 
            <div class="col-lg-6 col-md-6 col-12">
-               <label for="fname" >Card Number</label>
-               <input type="password" class="form-control" placeholder="Card Number">
+               <label for="cardnumber" >Card Number</label>
+               <input type="password" class="form-control" id="cardnumber" placeholder="Card Number">
           </div>
           
           <div class="col-lg-6 col-md-6 col-12">
-              <label for="lname" >Expiary Date</label>
-              <input type="month" class="form-control" placeholder="Expirary Date">
+              <label for="exdate" >Expiary Date</label>
+              <input type="month" class="form-control" id="exdate">
           </div>
           
        </div>
@@ -117,13 +117,13 @@
        <div class="row form">
 
            <div class="col-lg-6 col-md-6 col-12">
-               <label for="fname" >Security Code</label>
-               <input type="password" class="form-control" placeholder="Security Code" maxlength="3">
+               <label for="scode" >Security Code</label>
+               <input type="password" class="form-control" id="scode" placeholder="Security Code" maxlength="3">
           </div>
           
           <div class="col-lg-6 col-md-6 col-12">
-              <label for="lname" >Cardholder Name</label>
-              <input type="text" class="form-control" placeholder="Full Name">
+              <label for="cname" >Cardholder Name</label>
+              <input type="text" class="form-control" id="cname" placeholder="Full Name">
           </div>
           
        </div>
@@ -132,7 +132,7 @@
           
           <div class="col-12 submit">
               <label for="submit" ></label>
-              <input type="submit" class="form-control" value="PAY NOW" >
+              <input type="submit" class="form-control" id="submit" value="PAY NOW" >
           </div>
           
        </div>
@@ -163,8 +163,8 @@ function myFunction() {
 
 
                     <div class="col-6 no-gutters">
-                      <ul id="foot" class="list-inline foot-container">
-                         <div class="socials">
+                      <ul id="foot" class="list-inline foot-container socials">
+                         
                           <li  class="col-lg-3 col-md-6 col-sm-6 col-6 list-inline-item facebook">
                               <a href="https://www.facebook.com/" class="hvr-icon-spin" target="_blank">
                               <i class="fa fa-facebook hvr-icon"></i></a>
@@ -184,7 +184,7 @@ function myFunction() {
                               <a href="https://www.reddit.com/" class="hvr-icon-spin" target="_blank">
                               <i class="fa fa-reddit-alien hvr-icon"></i></a>
                           </li>  
-                        </div>      
+                              
                       </ul>
                     </div>  
 

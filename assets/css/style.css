@@ -19,7 +19,9 @@
 
 #logo {
     color: #0f1626;
-    
+    text-transform: uppercase;
+    padding-top: 19px;
+    font-weight: bold;
 }
 
 .gap {

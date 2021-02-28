@@ -192,11 +192,19 @@ footer {
     padding-right: 0;
 }
 
+.guest img {
+    padding-right: 10px;
+}
+
 .expect {
     text-align: center;
     color: #f5f5f5;
     background-color: #0f1626;
     padding: 0;
+}
+
+.expect p {
+    text-align: left;
 }
 
 .expect-list li {
@@ -215,12 +223,31 @@ footer {
     padding-bottom: 10px;
 }
 
-.map {
+.price p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.price h3 {
+    margin-bottom: 50px;
+}
+
+.dates {
     text-align: center;
     color: #f5f5f5;
     background-color: #e9b000;
     height: 50%;    
     padding: 0;
+}
+
+.dates p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.dates h3 {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .hero-image {

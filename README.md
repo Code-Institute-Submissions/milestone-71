@@ -30,9 +30,10 @@ Two sets of wireframes had to be made as layout changes were made to the website
 was taking place.
 
 #### Wireframe 1.o
-
+Stored in this repository as "wireframe-1.0.pdf"
 
 #### Wireframe 2.0
+Stored in this repository as "wireframe-2.0.pdf"
 
 
 ## Features
